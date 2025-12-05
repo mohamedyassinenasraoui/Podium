@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-team-leaderboard",
+  "version": "1.0.0",
+  "description": "Application de gestion d'équipes avec leaderboard en temps réel",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && node scripts/seed.js",
+    "reset-users": "cd server && node scripts/reset-users.js",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["react", "nodejs", "socket.io", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
