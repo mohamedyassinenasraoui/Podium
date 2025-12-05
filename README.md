@@ -1,4 +1,4 @@
-# 🏆 Application de Gestion d'Équipes avec Leaderboard en Temps Réel
+# 🏆 Podium - Application de Gestion d'Équipes avec Leaderboard en Temps Réel
 
 Application full-stack pour la gestion d'équipes avec un système de points et un leaderboard mis à jour en temps réel via Socket.IO.
 
@@ -207,4 +207,3 @@ Pour tester l'application :
 ## 📄 Licence
 
 ISC
-
